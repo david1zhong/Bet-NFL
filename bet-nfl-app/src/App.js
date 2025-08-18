@@ -44,11 +44,11 @@ function App() {
   const [errorMessage, setErrorMessage] = useState(false);
 
   useEffect(() => {
-    fetch('AWS_API_URL')
+    fetch('https://gg25v0d7zi.execute-api.us-east-2.amazonaws.com/dev/odds')
       .then(response => response.json())
       .then(json => setData(json.data))
       .catch(error => console.error(error));
-  }, []);
+  }, []); 
 
   const clearMessages = () => {
     setSuccessMessage(false);
