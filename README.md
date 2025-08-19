@@ -21,5 +21,4 @@ A real-time NFL betting program that displays up-to-date odds in a clean, struct
 - Google Sheets
 
 ## Future Features
-- Results check
-- Bet check
+- Automatic results check
