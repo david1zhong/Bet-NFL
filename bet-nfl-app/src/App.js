@@ -309,7 +309,7 @@ function App() {
     setIsPlacingBet(true);
     clearMessages();
 
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxHpL3GVYqmV7O4lqsDEbsFVtl5GfqgbsKfwNf5rpdl_bBf2uo75Jgs9rTFiPNmzVNu5w/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw4bJ5Tm4o1Jb9TktdKVK_boOXT1ArFKwagX3gsYE-lyrhPW3gq31DVsB7Q4hENUAqO/exec';
     
     fetch(scriptURL, {
       method: 'POST',
