@@ -2,7 +2,7 @@
 ### By: David Zhong
 
 ## Description
-A real-time NFL betting program that displays up-to-date odds in a clean, structured layout. Offers an interactive way to practice betting decisions without real risk. Better spin-off of my Bet NHL project. 
+A real-time NFL betting program that displays up-to-date odds in a clean, structured layout. Offers an interactive way to practice betting decisions without real risk. Bets are recorded [here](https://docs.google.com/spreadsheets/d/1qhHuFhX3HXZKajuObaiYsY9qnyVohgQZTu4PFtKQ3Wg/edit?usp=sharing).
 
 ## Features
 - Pulls NFL game information, including team matchups, start times, and betting odds (spread, moneyline, totals), by querying an AWS Lambda API with data cached in S3 every 12 hours.
