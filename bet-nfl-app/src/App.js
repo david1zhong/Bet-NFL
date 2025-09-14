@@ -528,18 +528,23 @@ function App() {
                     <div className="text-sm text-gray-400">{bet.matchup}</div>
                     <div className="text-white font-medium">{bet.displayName}</div>
                     <div className="text-xs text-gray-400">{bet.betTypeLabel}</div>
-                    <div className="text-xs text-gray-500 mt-1">{bet.awayTeam} @ {bet.homeTeam}</div>
-                      </div>
-                      <div className="text-right">
-                        <div className="text-lg font-bold text-white">{oddsText}</div>
-                        <button className="text-xs bg-gray-700 text-white px-2 py-1 rounded mt-1">CASH OUT</button>
-                      </div>
+                    <div className="text-xs text-gray-500 mt-1">
+                      {bet.awayTeam} @ {bet.homeTeam}
                     </div>
                   </div>
-                  <div className="text-white font-bold ml-2">{formatOdds(bet.odds)}</div>
+                  <div className="text-right">
+                    <div className="text-lg font-bold text-white">{oddsText}</div>
+                    <button className="text-xs bg-gray-700 text-white px-2 py-1 rounded mt-1">
+                      CASH OUT
+                    </button>
+                  </div>
+                </div>
+                <div className="text-white font-bold ml-2">
+                  {formatOdds(bet.odds)}
                 </div>
               </div>
             ))}
+
 
             <button 
               className="text-blue-400 hover:text-blue-300 text-sm mb-4 flex items-center"
