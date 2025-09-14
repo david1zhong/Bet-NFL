@@ -418,7 +418,7 @@ function App() {
                   onClick={() => handleBetSelection(index, 'total', 0, game.totals[0].price, game.totals[0].point)}
                 >
                   <div style={{ fontSize: isMobile ? 12 : 15 }}>O{game.totals[0].point}</div>
-                  <div style={{ fontSize: isMobile ? 10 : 12, color: isBetSelected(index, 'total', 0) ? "#ffffff" : "#3889eb", marginTop: '-2px' }}>({game.spreads[0].price > 0 ? `+${game.spreads[0].price}` : game.spreads[0].price})</div>
+                  <div style={{ fontSize: isMobile ? 10 : 12, color: isBetSelected(index, 'total', 0) ? "#ffffff" : "#3889eb", marginTop: '-2px' }}>({game.totals[0].price > 0 ? `+${game.totals[0].price}` : game.totals[0].price})</div>
                 </button>
               )}
             </div>
