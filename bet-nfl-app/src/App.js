@@ -525,7 +525,6 @@ function App() {
               <div key={index} className="bg-gray-800 rounded-lg p-3 mb-3">
                 <div className="flex justify-between items-start mb-2">
                   <div className="flex-1">
-                    <div className="text-sm text-gray-400">{bet.matchup}</div>
                     <div className="text-white font-medium">{bet.displayName}</div>
                     <div className="text-xs text-gray-400">{bet.betTypeLabel}</div>
                     <div className="text-xs text-gray-500 mt-1">
