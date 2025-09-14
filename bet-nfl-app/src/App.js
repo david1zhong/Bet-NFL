@@ -533,17 +533,17 @@ function App() {
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="text-lg font-bold text-white">{oddsText}</div>
+                    <div className="text-lg font-bold text-white">
+                      {formatOdds(bet.odds)}
+                    </div>
                     <button className="text-xs bg-gray-700 text-white px-2 py-1 rounded mt-1">
                       CASH OUT
                     </button>
                   </div>
                 </div>
-                <div className="text-white font-bold ml-2">
-                  {formatOdds(bet.odds)}
-                </div>
               </div>
             ))}
+
 
 
             <button 
